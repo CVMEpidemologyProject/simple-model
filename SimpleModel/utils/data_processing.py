@@ -56,7 +56,7 @@ def create_dataset(folder_location, antibiotic):
         y_list.append(y_indi)
 
     df_final["Target"] = y_list
-    return df_finals
+    return df_final
 
 if __name__ == "__main__":
     create_dataset("../../Features1/", "AUG")
